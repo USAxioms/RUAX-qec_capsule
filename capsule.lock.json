@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "capsule_digest": "4a51e60f2795f70bb0766ef87a41aa103de502e1f4405364d9fb801b67941ea6",
+  "files": {
+    "qec_wad18.py": "8a329fa0c704f469aa7980ff25c60c91350a498305c45585b9b668f440b8a327",
+    "test_qec_oracle.py": "9579cf44c1a7ce5b80145c2b0e50f3b4d2417730e628549e545464f9b8830114"
+  },
+  "golden": {
+    "campaigns": {
+      "1:10000000000000000:5000": {
+        "digest": "20539f0eb2160ae52654ff46bda5e656d0d268d8719cd2a47295aa7e4860b0ff",
+        "failures": 140
+      },
+      "2024:1000000000000000:5000": {
+        "digest": "8ec1db4a30e84f5bc0391cf84380eb9f14371fa9d1d60dd428b60dac022d4c00",
+        "failures": 1
+      }
+    },
+    "risk": {
+      "1e-2": 2940600000000,
+      "1e-3": 29888000000,
+      "1e-9": 42,
+      "7e-9": 2058
+    }
+  },
+  "recorded_with": {
+    "implementation": "CPython",
+    "platform": "Linux-x86_64",
+    "python": "3.10.12"
+  }
+}
